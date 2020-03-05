@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.uni_osnabrueck.ikw.eegdroid"
+    android:versionCode="1"
+    android:versionName="0.4" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="28" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher2_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="de.uni_osnabrueck.ikw.eegdroid.Info" />
+        <activity android:name="de.uni_osnabrueck.ikw.eegdroid.Settings" />
+        <activity android:name="de.uni_osnabrueck.ikw.eegdroid.Tutorial" />
+        <activity android:name="de.uni_osnabrueck.ikw.eegdroid.Learn" />
+        <activity android:name="de.uni_osnabrueck.ikw.eegdroid.ManageSessions" />
+        <activity
+            android:name="de.uni_osnabrueck.ikw.eegdroid.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="de.uni_osnabrueck.ikw.eegdroid.Record" />
+        <activity android:name="de.uni_osnabrueck.ikw.eegdroid.ExperimentActivity" />
+        <activity
+            android:name="de.uni_osnabrueck.ikw.eegdroid.Display"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="de.uni_osnabrueck.ikw.eegdroid.TFAnalysis"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="de.uni_osnabrueck.ikw.eegdroid.Epibot"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="de.uni_osnabrueck.ikw.eegdroid.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="de.uni_osnabrueck.ikw.eegdroid.DeviceScanActivity"
+            android:label="@string/app_name" />
+
+        <service
+            android:name="de.uni_osnabrueck.ikw.eegdroid.BluetoothLeService"
+            android:enabled="true" />
+
+        <activity
+            android:name="de.uni_osnabrueck.ikw.eegdroid.Connect"
+            android:label="@string/title_activity_connect"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name="de.uni_osnabrueck.ikw.eegdroid.utilities.GenericFileProvider"
+            android:authorities="de.uni_osnabrueck.ikw.eegdroid.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.ibm.watson.developer_cloud.android.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" >
+            </meta-data>
+        </provider>
+    </application>
+
+</manifest>

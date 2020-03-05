@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:3:5-61
+		INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+		INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:5:3-63
+	android:name
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:5:20-61
+application
+ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:7:3-21:17
+	android:label
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:8:7-39
+provider#androidx.core.content.FileProvider
+ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:10:5-19:16
+	android:grantUriPermissions
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:14:9-43
+	android:authorities
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:12:9-78
+	android:exported
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:11:9-58
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:15:7-18:19
+	android:resource
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:17:11-49
+	android:name
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml:16:11-61
+uses-sdk
+INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+		INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+		ADDED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml
+		INJECTED from /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/src/main/AndroidManifest.xml

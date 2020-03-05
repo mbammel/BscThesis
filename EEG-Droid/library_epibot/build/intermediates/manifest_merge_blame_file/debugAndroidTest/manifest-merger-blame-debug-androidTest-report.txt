@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ibm.watson.developer_cloud.android.library.test" >
+4
+5    <uses-sdk
+5-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:5:15-41
+7        android:targetSdkVersion="27" />
+7-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:11:5-15:101
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:11:22-75
+11        android:functionalTest="false"
+11-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:13:22-53
+13        android:label="Tests for com.ibm.watson.developer_cloud.android.library.test"
+13-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:15:22-99
+14        android:targetPackage="com.ibm.watson.developer_cloud.android.library.test" />
+14-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:12:22-97
+15
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->[__tested_artifact__::library_epibot] /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-66
+16-->[__tested_artifact__::library_epibot] /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-63
+17
+18    <application
+18-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:7:5-9:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.0-beta01] /Users/moritz/.gradle/caches/transforms-2/files-2.1/3e4c10c03f0aae5977209f3a3e5e9bd8/core-1.0.0-beta01/AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+20-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:7:18-43
+21        android:label="@string/app_name" >
+21-->[__tested_artifact__::library_epibot] /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-50
+22        <uses-library android:name="android.test.runner" />
+22-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:8:9-60
+22-->/Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6481349252248467237.xml:8:23-57
+23
+24        <provider
+24-->[__tested_artifact__::library_epibot] /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-23:20
+25            android:name="androidx.core.content.FileProvider"
+25-->[__tested_artifact__::library_epibot] /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-62
+26            android:authorities="com.ibm.watson.developer_cloud.android.provider"
+26-->[__tested_artifact__::library_epibot] /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-82
+27            android:exported="false"
+27-->[__tested_artifact__::library_epibot] /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-37
+28            android:grantUriPermissions="true" >
+28-->[__tested_artifact__::library_epibot] /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-47
+29            <meta-data
+29-->[__tested_artifact__::library_epibot] /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-22:25
+30                android:name="android.support.FILE_PROVIDER_PATHS"
+30-->[__tested_artifact__::library_epibot] /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-67
+31                android:resource="@xml/provider_paths" >
+31-->[__tested_artifact__::library_epibot] /Users/moritz/Documents/Studium/Thesis/BscThesis/EEG-Droid/library_epibot/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-55
+32            </meta-data>
+33        </provider>
+34    </application>
+35
+36</manifest>
