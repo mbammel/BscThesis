@@ -1,4 +1,4 @@
-# Studying Neural Correlates of Mind Wandering with mobile EEG - BscThesis
+# Studying Neural Correlates of Mind Wandering with mobile EEG - B. Sc. Thesis by Moritz Bammel (2020)
 
 
 **The app ```EEG-Droid``` is a modified version of an app that has been developed by students of the Institute of Cognitive Science at the University of Osnabrueck. The directory ```EEG-Droid``` in this repository is a clone of the original [```EEG-Droid``` repository by Adrián Rojas (adrocampos)](https://github.com/adrocampos/EEG-Droid) and contains the modified code of the app that was used for conducting an experiment on mind wandering. See section 2.1 of my thesis for an overview of the modifications of the original version of ```EEG-Droid``` and what new features have been added.**
