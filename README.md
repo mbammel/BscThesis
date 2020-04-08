@@ -3,9 +3,9 @@
 
 **The app ```EEG-Droid``` is a modified version of an app that has been developed by students of the Institute of Cognitive Science at the University of Osnabrueck. The directory ```EEG-Droid``` in this repository is a clone of the original [```EEG-Droid``` repository by Adrián Rojas (adrocampos)](https://github.com/adrocampos/EEG-Droid) and contains the modified code of the app that was used for conducting an experiment on mind wandering. See section 2.1 of my thesis for an overview of the modifications of the original version of ```EEG-Droid``` and what new features have been added.**
 
-*```EEGData.ipynb``` and ```BehavioralData.ipynb``` are two Jupyter notebooks providing the analysis code for both EEG and behavioral data analysis
-*The directory ```Figures```contains all figures as .svg and .pdf files
-*BscThesis.pdf is the final version of my Bachelor's thesis, see the abstract below
+* ```EEGData.ipynb``` and ```BehavioralData.ipynb``` are two Jupyter notebooks providing the Python code for both EEG and behavioral data analysis
+* The directory ```Figures```contains all figures as .svg and .pdf files
+* BscThesis.pdf is the final version of my Bachelor's thesis, see the abstract below
 
 ## Abstract
 
@@ -17,4 +17,4 @@ Furthermore, the first person reports have highlighted that the phenomenology of
 
 
 ### References:
-* Braboszcz, C., & Delorme, A. (2011). Lost in thoughts: Neural markers of low alertness during mind wandering. *Neuroimage, 54(4)*, 3040?3047.
+* Braboszcz, C., & Delorme, A. (2011). Lost in thoughts: Neural markers of low alertness during mind wandering. *Neuroimage, 54(4)*, 3040-3047.
